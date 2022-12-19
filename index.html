@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de programação</title>
+     <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <header>
+            <img src="logo.svg" alt="Logo de programação">
+            <h1>Código Raduan</h1>
+        </header>
+        <main>
+            <form>
+                <div class="input-field">
+                    <input id="email" type="email" placeholder="Email">
+                    <label for="email">
+                        <img src="avatar.svg" alt="avatar">
+                    </label>                
+                </div>
+                <p id="texto_email"></p>
+                <div class="input-field">
+                    <input type="text" placeholder="Senha" id="password">
+                    <label for="password">
+                        <img src="lock.svg" alt="Senha" height="33px" width="33px">
+                    </label>
+                </div>
+
+                <button onclick="login()" type="button">
+                    Login
+                </button>
+            </form>
+        </main>
+        <footer>
+            <span>
+                <a href="#">Esqueci minha senha</a>
+            </span>
+                <a href="#">Criar conta</a>
+            
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
